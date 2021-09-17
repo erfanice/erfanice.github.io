@@ -255,7 +255,7 @@
     width: 100%;
     height: 100vh;
     z-index: 11111111;
-    right: 0;
+    left: 0;
     top: 0;
 }
 
@@ -349,6 +349,10 @@
     transform: rotate(45deg) translate(0px , 0px);
 }
 
+.overflow1{
+    overflow-x: hidden;
+}
+
 @media screen and (max-width:1199px) and (min-width:992px) {
     .mar1{
         margin-top: -106px;
@@ -401,11 +405,31 @@
     }  
 }
 
-@media screen and (max-width:576px) and (min-width:12px) {
+@media screen and (max-width:576px) and (min-width:411px) {
     .mar8{
         margin-top: 24px;
     }
     .w100{
         width: 50%;
+    }
+}
+@media screen and (max-width:410px) and (min-width:12px) {
+    .mar8{
+        margin-top: 24px;
+    }
+    .w100{
+        width: 70%;
+    }
+    .borderrad{
+        border: 20px solid #1f88dd;
+        border-radius: 70%;
+        width: 300px;
+        height: 300px;
+    }
+    .modal10{
+        background-color: burlywood;
+        width: 300px;
+        height: 500px;
+        overflow-y: auto;
     }
 }

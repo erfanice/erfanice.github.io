@@ -19,7 +19,7 @@
     <title>MAHA</title>
 </head>
 
-<body id="body">
+<body id="body" class="overflow1">
 
 
     <nav id="nav" class="navbar d-none d-lg-inline navbar-expand-lg navbar-light navbg w-100 position-fixed z1">
@@ -68,7 +68,7 @@
         </div>
         <div id="navMobile1" class="page position-absolute">
             <div class="d-flex w-100 h-100 pt-4 px-2">
-                <ul class="">
+                <ul class="ps-1">
                     <li class=" pb-2 pt-2 me-4">
                         <a id="link1" class="nav-link text-white navlink pb-2 fs-5" href="#a1">Home</a>
                     </li>
@@ -96,7 +96,7 @@
                 </ul>
             </div>
         </div>
-        <div id="modal1" class="d-none modalbg position-absolute d-flex align-items-center justify-content-center">
+        <div id="modal1" class="d-none modalbg position-absolute d-flex align-items-center justify-content-center overflow-hidden">
             <div class="modal10 d-flex align-items-center px-3 py-3 rounded-2 flex-column position-relative">
                 <button id="back1" class="back position-absolute">+</button>
                 <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla adipisci accusantium magnam aspernatur vel, culpa, impedit velit earum natus quisquam ipsum dolorum corporis unde nihil! Molestiae quae adipisci a, consectetur veniam hic dignissimos velit nisi nostrum impedit facere illo soluta autem alias illum voluptates. Quas cupiditate nulla molestiae odio porro laborum inventore optio sint, officia dolorum neque deserunt numquam nihil. Qui beatae quia officia cupiditate animi, corporis eos nam blanditiis possimus assumenda praesentium, quas exercitationem ratione perspiciatis distinctio, iusto dolores accusantium laudantium repellat nisi consequatur rem soluta molestiae. Earum perferendis quod ex deleniti quo debitis amet alias accusantium error. At.</p>
@@ -155,26 +155,28 @@
         </div>
     </div>
 
-    <div id="a2" class="container-fluid bgblack py-5">
+    <div id="a2" class="container-fluid bgblack py-5 overflow-hidden">
         <div id="box4" class="container py-5 dnone">
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col">
                     <img src="images/3.png" alt="" class="img-fluid">
                 </div>
-                <div class="col ps-5 pt-4 text-center text-lg-start">
+                <div class="col ps-4 pt-4 text-center text-lg-start">
                     <h2 class="text-white fw-bold">About Me</h2>
                     <p class="text-white mt-4">Hello, I’m a Patrick, web-developer based on Paris. I have rich
                         experience in web site design & building and customization. Also I am good at
                     </p>
                     <div class="d-flex mt-4 mb-5 justify-content-center justify-content-lg-start">
-                        <span class="miniinfo py-1 px-2 text-white">Html</span>
-                        <span class="miniinfo py-1 px-2 ms-3 text-white">Css</span>
-                        <span class="miniinfo py-1 px-2 ms-3 text-white">Bootstap 5</span>
-                        <span class="miniinfo py-1 px-2 ms-3 text-white">Javascript</span>
+                        <div class="miniinfo py-1 px-2 text-white">Html</div>
+                        <div class="miniinfo py-1 px-2 ms-3 text-white">Css</div>
+                        <div class="miniinfo py-1 px-2 ms-3 text-white">Bootstap 5</div>
+                        <div class="miniinfo py-1 px-2 ms-3 text-white">Javascript</div>
                     </div>
-                    <a href="#" class="bluelink bgblue px-4 py-2 rounded-pill text-white text-decoration-none ">Download
-                        CV <i class="bi bi-cloud-arrow-down-fill"></i>
-                    </a>
+                    <div>
+                        <a href="#" class="bluelink bgblue px-4 py-2 rounded-pill text-white text-decoration-none">Download
+                            CV <i class="bi bi-cloud-arrow-down-fill"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
